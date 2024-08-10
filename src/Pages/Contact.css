@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    display: flex;
+}
+
+.product{
+    margin: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;   
+}
+.productCont{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
